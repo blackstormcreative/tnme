@@ -47,6 +47,52 @@ h3 {
   display: block;
 }
 
+
+.main_container {
+  margin-top: 8rem;
+}
+
+.main_container .latest_news {
+  height: 50rem;
+  border: 0.1px solid black;
+  background-color: #b9e76e;
+}
+
+.main_headline {
+  height: 40rem;
+  border: 0.1px solid black;
+  background-color: #ef400a;
+  padding: 0;
+  right: 1rem;
+}
+
+.sub_headline {
+  height: 20rem;
+  border: 0.1px solid gray;
+  background-color: #ffadde;
+}
+
+.sub_headline_box {
+  height: 18rem;
+  background-color: white;
+}
+
+.mid_headline,
+.mid_headline2 {
+  padding-left: 0;
+}
+
+.mid_headline_box {
+  height: 10rem;
+  background-color: #9aab14;
+}
+
+.mid_headline2_box {
+  height: 5rem;
+  background-color: #35abeb;
+}
+
+
 .jumbotron .container-fluid {
   margin-top: 7rem;
 }
