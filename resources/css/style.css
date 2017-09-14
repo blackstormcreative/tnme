@@ -1,0 +1,78 @@
+/* Universal Styles */
+html {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  color: black;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+h2 {
+  color: black;
+  font-size: 3rem;
+  font-style: italic;
+  text-align: right;
+  margin-top: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+/*   Navbar Codes   */
+.navbar {
+  margin-bottom: 0;
+}
+.navbar .container-fluid {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.navbar-header {
+  overflow: hidden;
+  height: auto;
+}
+
+.navbar-default .navbar-nav > li > a {
+  text-align: center;
+}
+
+.navbar-header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.jumbotron .container-fluid {
+  margin-top: 7rem;
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
+}
+
+ul.share-buttons .sr-only{
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
+/*   Footer Codes   */
+footer .navbar .container-fluid {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
