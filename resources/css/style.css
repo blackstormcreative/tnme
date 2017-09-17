@@ -51,6 +51,20 @@ nav .container .row {
   overflow: hidden;
 }
 
+#recent_section .jumbotron {
+  height: 20rem;
+  background-image: url('../media/desert1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+#recent_section .jumbotron .btn-danger {
+  margin-top: 1.5rem;
+
+}
+
 
 /*   Post Section   */
 #post_section .row {
