@@ -73,14 +73,28 @@ nav .container .row {
   height: 25rem;
 }
 
-/*   Post Section   */
+#post_section .col-md-6:first-child .jumbotron {
+  background-image: url('../media/desert2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#post_section .col-md-6:last-child .jumbotron {
+  background-image: url('../media/desert3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+/*   Socialmedia Section   */
+
 #socialmedia_section .row {
   background-color: #000000;
   height: 25rem;
 }
 
-
-/*   Socialmedia Section   */
 #socialmedia_section h3 {
   color: #ffffff;
 
