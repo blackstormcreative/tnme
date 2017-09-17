@@ -35,18 +35,17 @@ p {
   font-family: 'Slabo 27px', serif;
 }
 
-/*
-placehodler-squares-grey.jpg
-background-image: url('../media/desert1.jpg');
-placehodler-squares-grey.jpg
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: white;
-  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("your_image.png");
-*/
+a {
+  color: #fff;
+}
+
+nav .container {
+  margin-top: 1rem;
+}
 
 .jumbotron {
+  position: relative;
+  top: 1.2rem;
   background-color: white;
   background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../media/desert4.jpg');
   background-size: cover;
@@ -57,6 +56,11 @@ placehodler-squares-grey.jpg
   color: black;
 }
   
+.jumbotron .col-md-7 {
+  position: relative;
+  top: 2.5rem;
+}
+
 
 ul.share-buttons {
   list-style: none;
