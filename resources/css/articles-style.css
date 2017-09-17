@@ -1,19 +1,62 @@
 /* Universal Styles */
-html {
+html, body {
   font-size: 16px;
+  font-family: 'Slabo 27px', serif;
+  background-color: white;
+
 }
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Slabo 27px', serif;
+*/
+
 
 .container .row {
   height: 16rem;
 }
 
+
+
 h2 {
+  font-family: 'Playfair Display', serif;
   color: black;
   font-size: 3rem;
   font-style: italic;
   text-align: right;
   margin-top: 4rem;
 }
+
+h4 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Slabo 27px', serif;
+}
+
+/*
+placehodler-squares-grey.jpg
+background-image: url('../media/desert1.jpg');
+placehodler-squares-grey.jpg
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url("your_image.png");
+*/
+
+.jumbotron {
+  background-color: white;
+  background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../media/desert4.jpg');
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  font-family: 'Playfair Display', serif;
+  color: black;
+}
+  
 
 ul.share-buttons {
   list-style: none;
